@@ -12,4 +12,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'forem-bootstrap', :github => "darkmirage/forem-bootstrap", :branch => "master"
+
 gem 'devise'
+
+gem 'forem', github: "radar/forem", branch: "rails4"
+gem 'kaminari', '0.15.1'
+gem 'cancan', git: "https://github.com/nukturnal/cancan.git"
