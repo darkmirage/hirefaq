@@ -1,3 +1,7 @@
+.main-title {
+  font-weight: bold;
+}
+
 .main-body {
   margin: 20px;
 }
@@ -8,4 +12,19 @@
 
 .alerts * {
   margin: 0;
+}
+
+form {
+  input {
+    max-width: 300px;
+  }
+
+  label {
+    display: block;
+  }
+
+  .hint {
+    display: block;
+    font-size: 0.9em;
+  }
 }
