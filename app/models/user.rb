@@ -6,6 +6,6 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   def to_s
-    name
+    email
   end
 end
