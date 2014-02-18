@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '1.9.3'
+
 gem 'rails', '4.0.0'
 gem 'pg'
 gem 'sass-rails', '~> 4.0.0'
@@ -19,3 +21,5 @@ gem 'devise'
 gem 'forem', github: "radar/forem", branch: "rails4"
 gem 'kaminari', '0.15.1'
 gem 'cancan', git: "https://github.com/nukturnal/cancan.git"
+
+gem 'rails_12factor', group: :production
